@@ -7,6 +7,7 @@ M.setup = config.setup
 M.toggle = view.toggle
 M.open = view.open
 M.close = view.close
+M.is_open = view.is_open
 
 function M.reset()
   M.close()
